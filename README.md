@@ -2,9 +2,9 @@
 
 ## Promise
 
-In JavaScript, a **Promise** is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value. Promises are a way to handle asynchronous code more elegantly and avoid the "callback hell" that can arise when dealing with multiple asynchronous operations.
+In JavaScript, a **`Promise`** is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value. Promises are a way to handle asynchronous code more elegantly and avoid the "callback hell" that can arise when dealing with multiple asynchronous operations.
 
-A **Promise** has three states:
+A **`Promise`** has three states:
 
 1. **Pending**: The initial state; the promise is neither fulfilled nor rejected.
 2. **Fulfilled**: The operation completed successfully, and the promise has a resulting value.
@@ -41,11 +41,11 @@ fetchData
   });
 ```
 
-The **then** method is used to handle the fulfilled state, and the catch method is used to handle the rejected state. Promises provide a more structured and readable way to work with asynchronous code compared to traditional callback patterns.
+The **`then`** method is used to handle the fulfilled state, and the catch method is used to handle the rejected state. Promises provide a more structured and readable way to work with asynchronous code compared to traditional callback patterns.
 
 ## Async Await
 
-**async/await** is a syntax sugar built on top of promises in JavaScript. With async/await, you can write asynchronous code that looks more like synchronous code, making it easier to read and maintain.
+**`async/await`** is a syntax sugar built on top of promises in JavaScript. With async/await, you can write asynchronous code that looks more like synchronous code, making it easier to read and maintain.
 
 Here's a quick comparison:
 
@@ -83,6 +83,6 @@ async function fetchDataWrapper() {
 fetchDataWrapper();
 ```
 
-Using **async/await** can make the code more readable, especially when dealing with multiple asynchronous operations. Under the hood, **async/await** still relies on promises, providing a more concise and synchronous-looking syntax for handling asynchronous tasks.
+Using **`async/await`** can make the code more readable, especially when dealing with multiple asynchronous operations. Under the hood, **`async/await`** still relies on promises, providing a more concise and synchronous-looking syntax for handling asynchronous tasks.
 
 ![2023-11-21 15-10-06](https://github.com/codewithelmor/js-promise-async-await-image-size-filter/assets/44918452/c53fa191-6e8a-4471-9397-2b001541d243)
