@@ -85,4 +85,4 @@ fetchDataWrapper();
 
 Using **async/await** can make the code more readable, especially when dealing with multiple asynchronous operations. Under the hood, **async/await** still relies on promises, providing a more concise and synchronous-looking syntax for handling asynchronous tasks.
 
-[![Screenshot-2023-05-18-201106.png](https://i.postimg.cc/5tgQWxqM/Screenshot-2023-05-18-201106.png)](https://postimg.cc/gww2vbTM)
+![2023-11-21 15-10-06](https://github.com/codewithelmor/js-promise-async-await-image-size-filter/assets/44918452/c53fa191-6e8a-4471-9397-2b001541d243)
